@@ -57,3 +57,8 @@ app.delete('/items/:name', (req, res) => {
 app.listen(4000, () => {
   console.log('Server is running on port 4000');
 });
+
+//adding a small change to test the CI/CD pipeline
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
+  });

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/stolenwise/express-shopping-list/issues"
   },
-  "homepage": "https://github.com/stolenwise/express-shopping-list#readme"
+  "homepage": "https://github.com/stolenwise/express-shopping-list#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
